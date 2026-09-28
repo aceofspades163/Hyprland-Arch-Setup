@@ -1,0 +1,46 @@
+[general]
+directory = "/home/aceofspades/Wallpapers"
+backend = "awww"
+
+[window]
+preview = false
+close_on_focus_loss = false
+position = "bottom"
+background = "#11111bff"
+margin = 34
+edge_margin = 24
+radius = 40
+
+[input]
+mouse = false
+
+[animation]
+navigation_ms = 410
+zoom_percent = 10
+
+[grid]
+columns = 5
+visible_rows = 1
+carousel = true
+edge_peek = false
+spacing = 16
+radius = 20
+border_width = 0
+shadow_width = 12
+ring_width = 0
+
+[thumbnail]
+width = 300
+height = 169
+
+[colors]
+tile = "#313244ff"
+border = "#585b70ff"
+shadow = "#00000066"
+ring = "#f2cdcdff"
+spinner = "#cdd0e6ff"
+
+[hooks]
+on_apply = [
+    "matugen image {path} -m dark --source-color-index 0",
+]

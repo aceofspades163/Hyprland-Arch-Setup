@@ -1,0 +1,26 @@
+##################################
+#   WINAPPS CONFIGURATION FILE   #
+##################################
+
+RDP_USER="YOUR_WINDOWS_USERNAME"
+RDP_PASS="YOUR_WINDOWS_PASSWORD"
+RDP_ASKPASS=""
+RDP_DOMAIN=""
+RDP_IP=""
+RDP_PORT="3389"
+VM_NAME="RDPWindows"
+WAFLAVOR="libvirt"
+RDP_SCALE="100"
+REMOVABLE_MEDIA="/run/media"
+RDP_FLAGS="/cert:tofu /sound /microphone +home-drive +dynamic-resolution /w:2560 /h:1600"
+RDP_FLAGS_NON_WINDOWS=""
+RDP_FLAGS_WINDOWS=""
+DEBUG="true"
+AUTOPAUSE="off"
+AUTOPAUSE_TIME="300"
+FREERDP_COMMAND=""
+PORT_TIMEOUT="5"
+RDP_TIMEOUT="30"
+APP_SCAN_TIMEOUT="60"
+BOOT_TIMEOUT="120"
+HIDEF="on"
